@@ -1,8 +1,8 @@
 {
     "apix": {
         "credentials": {
-            "userName": "go-bank@apixdemo.com",
-            "password": "APIXGoBank@123"
+            "userName": "Please replace this with your APIX username",
+            "password": "Please replace this with your APIX password"
         },
         "tokenUrl": "https://services.apixplatform.com/api-sandbox/application/token"
     },
