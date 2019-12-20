@@ -218,7 +218,7 @@ export class DashboardComponent implements OnInit {
 			{
 				pic: './assets/media/files/pdf.svg',
 				title: 'Statement - Month of Nov 2019 (Partial)',
-				url: '',
+				url: 'javascript:;',
 			}
 		]);
 
@@ -336,7 +336,7 @@ export class DashboardComponent implements OnInit {
 					pic: './assets/media/client-logos/logo1.png',
 					username: branch.name,
 					desc: branch.id,
-					url: '',
+					url: 'javascript:;',
 					buttonClass: 'btn-label-brand'
 				})
 			});
