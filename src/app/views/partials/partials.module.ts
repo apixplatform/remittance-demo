@@ -64,7 +64,6 @@ import {
 	UserProfileComponent,
 } from './layout';
 // General
-import {NoticeComponent} from './content/general/notice/notice.component';
 import {PortletModule} from './content/general/portlet/portlet.module';
 // Errpr
 import {ErrorComponent} from './content/general/error/error.component';
@@ -77,7 +76,6 @@ import {CartComponent} from './layout/topbar/cart/cart.component';
 @NgModule({
 	declarations: [
 		ScrollTopComponent,
-		NoticeComponent,
 		ActionNotificationComponent,
 		DeleteEntityDialogComponent,
 		FetchEntityDialogComponent,
@@ -113,9 +111,7 @@ import {CartComponent} from './layout/topbar/cart/cart.component';
 	exports: [
 		WidgetModule,
 		PortletModule,
-
 		ScrollTopComponent,
-		NoticeComponent,
 		ActionNotificationComponent,
 		DeleteEntityDialogComponent,
 		FetchEntityDialogComponent,
