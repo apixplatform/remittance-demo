@@ -27,7 +27,6 @@ export class DashboardComponent implements OnInit {
 	widget4_1: Widget4Data;
 	widget4_2: Widget4Data;
 	widget4_3: Widget4Data;
-	widget4_4: Widget4Data;
 	widget4_5: Widget4Data;
 	widget4_6: Widget4Data;
 
@@ -171,45 +170,6 @@ export class DashboardComponent implements OnInit {
 				url: 'https://keenthemes.com.my/metronic',
 				value: '+13%',
 				valueColor: 'kt-font-focus'
-			},
-		]);
-		// @ts-ignore
-		this.widget4_4 = shuffle([
-			{
-				pic: './assets/media/client-logos/logo5.png',
-				title: 'Trump Themes',
-				desc: 'Make Metronic Development',
-				url: 'https://keenthemes.com.my/metronic',
-				value: '+$2500',
-				valueColor: 'kt-font-brand'
-			}, {
-				pic: './assets/media/client-logos/logo4.png',
-				title: 'StarBucks',
-				desc: 'Good Coffee & Snacks',
-				url: 'https://keenthemes.com.my/metronic',
-				value: '-$290',
-				valueColor: 'kt-font-brand'
-			}, {
-				pic: './assets/media/client-logos/logo3.png',
-				title: 'Phyton',
-				desc: 'A Programming Language',
-				url: 'https://keenthemes.com.my/metronic',
-				value: '+$17',
-				valueColor: 'kt-font-brand'
-			}, {
-				pic: './assets/media/client-logos/logo2.png',
-				title: 'GreenMakers',
-				desc: 'Make Green Development',
-				url: 'https://keenthemes.com.my/metronic',
-				value: '-$2.50',
-				valueColor: 'kt-font-brand'
-			}, {
-				pic: './assets/media/client-logos/logo1.png',
-				title: 'FlyThemes',
-				desc: 'A Let\'s Fly Fast Again Language',
-				url: 'https://keenthemes.com.my/metronic',
-				value: '+200',
-				valueColor: 'kt-font-brand'
 			},
 		]);
 

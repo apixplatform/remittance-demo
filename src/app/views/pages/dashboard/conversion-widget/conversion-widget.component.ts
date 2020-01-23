@@ -84,7 +84,7 @@ export class ConversionWidgetComponent implements OnInit, AfterViewInit {
     this.loading = true;
     this.cdr.markForCheck();
     let request = {
-      corporateid: "MAYBNK",
+      corporateid: "GOBNK",
       timestamp: new Date().toISOString(),
       userid: this.accountBasicInfo.accountId,
       token: "1782843079",

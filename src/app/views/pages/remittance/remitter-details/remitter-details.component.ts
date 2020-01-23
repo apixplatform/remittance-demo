@@ -102,7 +102,7 @@ export class RemitterDetailsComponent implements OnInit {
           console.log('error', 'Invalid Credentials', 'Please check if you have set valid APIX credentials in your API config.');
         } else {
           let request = {
-            corporateid: "MAYBNK",
+            corporateid: "GOBNK",
             timestamp: new Date().toISOString(),
             userid: this.accountBasicInfo.accountId,
             token: "1782843079",

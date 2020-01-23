@@ -112,7 +112,7 @@ export class ErrorPageComponent implements OnInit, OnDestroy {
 					this.subtitle = 'Sorry we can\'t seem to find the page you\'re looking for.';
 				}
 				if (!this.desc) {
-					this.desc = 'There may be amisspelling in the URL entered,<br>' + 'or the page you are looking for may no longer exist.';
+					this.desc = 'There may be a misspelling in the URL entered,<br>' + 'or the page you are looking for may no longer exist.';
 				}
 				if (!this.image) {
 					this.image = './assets/media/error/bg3.jpg';

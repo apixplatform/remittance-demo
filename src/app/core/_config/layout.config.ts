@@ -11,13 +11,13 @@ export class LayoutConfig {
 				'background-position': 'center top',
 				'background-size': '100% 350px',
 			},
-			'logo': './assets/media/logos/maybank.svg',
+			'logo': './assets/media/logos/logo-4.png',
 		},
 		// == Page Splash Screen loading
 		'loader': {
 			'enabled': true,
 			'type': 'spinner-logo',
-			'logo': './assets/media/logos/maybank-mini-dark.svg',
+			'logo': './assets/media/logos/logo-mini-md.png',
 			'message': 'Please wait...',
 		},
 		// == Colors for javascript
